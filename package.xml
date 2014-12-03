@@ -1,0 +1,23 @@
+<package>
+  <name>dumbo_ft_sensor_frequency_check</name>
+  <version>0.0.1</version>
+  <description>
+    Node for checking sampling frequency of dumbo's force torque sensors
+  </description>
+  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
+  <license>BSD</license>
+
+  <url>http://wiki.ros.org/dumbo_ft_sensor_frequency_check</url>
+
+  <author email="fevb@kth.se">Francisco Vina</author>
+  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>dumbo_force_torque_sensor</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>dumbo_force_torque_sensor</run_depend>
+
+</package>
