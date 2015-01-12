@@ -43,6 +43,7 @@
 #include <time.h>
 #include <numeric>
 #include <unistd.h>
+#include <iostream>
 
 bool quit = false;
 
